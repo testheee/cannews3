@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 
+
+	<title>Financial literacy</title>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+	<link rel="stylesheet" type="text/css" href="css/set1.css"/>
+	<link href="css/overwrite.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+					data-target=".navbar-collapse.collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">Savings</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<div class="menu">
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation"><a href="index.html">Main</a></li>
+					<li role="presentation"><a href="policy.html">Privacy policy</a></li>
+					<li role="presentation"><a href="blog.html">Articles</a></li>
+					<li role="presentation"><a href="terms.html">Terms and conditions</a></li>
+					<li role="presentation"><a href="contact.html">Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</nav>
+	
+
+	<section id="contact-page" style="margin-top: 350px;">
+        <div class="container">
+
+            <div class="row contact-wrap"> 
+
+                <form class="contact-form" name="contact-form" method="post" action="thanks.html">
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" name="name" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" class="form-control" >
+                        </div>
+                        <div class="form-group">
+                            <label>Phone number</label>
+                            <input type="number" class="form-control">
+                        </div>
+
+                    </div>
+                    <div class="col-sm-5">
+
+                        <div class="form-group" style="margin-top: 35px;">
+
+                            <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
+                        </div>                        
+                        <div class="form-group">
+							<input type="checkbox" name="terms" value="check" required=""/>
+							<a href="policy.html" target="_blank">
+								I have read and agree to the terms of the user agreement
+							</a>
+
+							<button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Send</button>
+                        </div>
+                    </div>
+                </form> 
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#contact-page-->
+
+	<footer style="margin-top: 160px;">
+		<div class="inner-footer">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-4 l-posts">
+						<h3 class="widgetheading">Popular</h3>
+						<ul>
+							
+							<li><a href="aiiyACe1PI2CKlc.html">How to start investing (for beginners))</a></li>
+							
+
+							<li><a href="bb4facc64542190e649c4f05274d8d4c.html">A powerful factor for personal income growth</a></li>
+							
+
+						</ul>
+					</div>
+					<div class="col-md-4 f-contact">
+						<h3 class="widgetheading">Contacts</h3>
+						<a href="#"><p><i class="fa fa-envelope"></i> aziemann@anderson.com</p></a>
+						<p><i class="fa fa-phone"></i> +5887825572441</p>
+						<p><i class="fa fa-home"></i> 975 Gleason Falls
+South Joshuahbury, UT 78059</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="last-div">
+			<div class="container">
+				<div class="row">
+					<div class="copyright">
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+						All rights reserved
+					</div>
+
+				</div>
+			</div>
+
+
+		</div>
+	</footer>
+	<div class='cookie-banner'>
+		<p>
+			The site uses cookies. They allow us to recognize you and get information about your user experience.By continuing to browse the site, I agree to the use of cookies by the site owner in accordance with  <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Cookie policy</a>
+		</p>
+		<button class='close-cookie'>&times;</button>
+	</div>
+
+
+	<script>
+		window.onload = function () {
+			$('.close-cookie').click(function () {
+				$('.cookie-banner').fadeOut();
+			})
+		}
+	</script>
+	<script>
+		let elems = document.querySelectorAll('.server-name');
+		elems.forEach((elem) => {
+			elem.innerHTML = window.location.hostname
+		})
+	</script>
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+
+	<script src="js/functions.js"></script>
+
+  </body>
+</html>
